@@ -51,7 +51,7 @@ class App extends React.Component {
   fbQuote = () => {
     const { text, author } = this.state;
     const fbText = `${text} - ${author}`;
-    const urlToShare = "https://codepen.io/Akinyemi-Testimony-I-Benjamin/pen/vYqYoZV?editors=0010"
+    const urlToShare = "https://mrtee160561051.github.io/Random-quote-generator/"
     const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(urlToShare)}&quote=${encodeURIComponent(fbText)}`;
     window.open(fbUrl, "_blank");
   }
